@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* footer css */
+
+.cols li:nth-child(1){
+    font-size: 20px;
+    margin-bottom: 14px;
+    padding-bottom: 0px;
+}
