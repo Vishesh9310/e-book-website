@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function SectionProfile(props) {
     const name = props.datas.name;
@@ -25,7 +26,7 @@ function SectionProfile(props) {
                     </div>
                     <div className='w-1/4 bg-purple-50 rounded-xl p-10 shadow-lg shadow-purple-300 ml-10'>
                         <img className='w-full bg-blue' src="src/assets/extra/building.png" alt="" />
-                        <p className='w-full mt-5 text-center px-10 rounded-2xl shadow-xl shadow-purple-500 bg-purple-100 hover:bg-purple-300 border-2 border-purple-300'>Home</p>
+                        <div className="w-full mt-5 content-center text-center"><Link to="/home" className=' w-full text-center px-10 rounded-2xl shadow-xl shadow-purple-500 bg-purple-100 hover:bg-purple-300 border-2 border-purple-300'>Home</Link></div>
                     </div>
                 </div>
             </div>

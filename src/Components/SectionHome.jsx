@@ -99,7 +99,7 @@ function SectionHome() {
   const arrayDataitems = books.map((bookdata)=><BookCard book={bookdata}/>);
 
   return (
-    <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7 bg-gradient-to-br from-indigo-400 via-purple-400 to-pink-300'>
+    <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7 bg-gradient-to-br from-indigo-200 via-purple-200 to-pink-300'>
     {arrayDataitems}
     </div>
   )

@@ -13,7 +13,7 @@ function BookCard(props) {
 
   return (
     <>
-      <div className='bg-neutral-300 bg-gradient-to-b from-purple-500 to-blue-200 w-40 h-72 m-5 rounded-xl p-2.5 text-black shadow-2xl shadow-purple-700'>
+      <div className='bg-neutral-300 bg-gradient-to-b from-purple-400 to-blue-200 w-40 h-72 m-5 rounded-xl p-2.5 text-black shadow-2xl shadow-purple-700'>
         <div className='bg-none'>
 
           <div  className='h-32 h-min-28 w-min-28 flex content center bg-none'>
