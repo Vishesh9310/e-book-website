@@ -106,3 +106,17 @@ function SectionHome() {
 }
 
 export default SectionHome
+
+
+
+/*
+amazon book api:
+https://www.googleapis.com/books/v1/volumes?q=harry+potter
+
+
+country flags:
+https://restcountries.com/v2/all
+
+food photo:
+https://www.themealdb.com/api/json/v1/1/random.php
+*/

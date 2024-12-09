@@ -7,7 +7,7 @@ function BookCard(props) {
   const a_name = props.book.a_name;
   const price = props.book.price;
   const n_price = props.book.n_price;
-  const disc = ((n_price/price)*100).toFixed(1);
+  const disc = (((price - n_price)/price)*100).toFixed(1);
   // const disc = ((n_price/price)*100).toFixed(2).substring(2);
   // const disc = Math.floor((n_price/price)*100);
 

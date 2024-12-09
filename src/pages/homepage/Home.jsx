@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../../Components/Navbar'
+import Apiis from '../../Components/Apiss'
 import Footer from '../../Components/Footer'
 import BottomSign from '../../Components/BottomSign'
 import SectionHome from '../../Components/SectionHome'
@@ -9,6 +10,7 @@ function Home() {
     <div>
    <Navbar/>
    <SectionHome/>
+   <Apiis/>
    <Footer/>
    <BottomSign/>
    </div>
