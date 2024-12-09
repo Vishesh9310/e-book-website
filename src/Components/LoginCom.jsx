@@ -43,8 +43,6 @@ function LoginCom() {
                 <a class='an' className="p-0.5 text-center rounded-2xl min-w-7 hover:min-w-7 max-w-7 min-h-7 max-h-7 hover:bg-blue-500 hover:text-white" href="">Fa</a>
                 </div>
                 <p className=" text-xs">Don't have an account? <a className='text-purple-900 hover:text-purple-950' href="#">Sign up</a></p>
-                
-                
             </form>
         </div>
     </div>
